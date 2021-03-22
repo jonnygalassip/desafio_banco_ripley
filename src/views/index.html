@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bienvenido al ChatBot Banco Ripley</title>
+    <!-- Bootstrap V.5.0 -->
+    <%- include('partials/head.html') %>
+  </head>
+  <body>
+    <div class="card" style="width: 20rem;margin: 20px auto;">
+      <div class="card-header">
+        Asistencia Digital Banco Ripley
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">¡Bienvenido!</h5>
+        <br>
+        <div id="chatbot_mensaje">
+        </div>
+
+      </div>
+      <div class="card-footer text-muted">
+        <form action="/nuevo_mensaje" method="post">
+          <input type="text" id="mensaje" name="mensaje" class="form-control mb-2" placeholder="¿Cómo podemos ayudarte?..." rows="3"></textarea>
+          <input type="button" value="Enviar" class="btn btn-success" id="enviarMensaje">
+        </form>
+      </div>
+  </div>
+      <%- include('partials/scripts.html') %>
+  </body>
+</html>

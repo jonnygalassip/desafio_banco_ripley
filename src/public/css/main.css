@@ -1,0 +1,10 @@
+body {
+  background: rgb(32,9,84);
+  background: linear-gradient(90deg, rgba(32,9,84,1) 0%, rgba(136,44,171,1) 40%, rgba(145,54,180,1) 52%, rgba(132,43,168,1) 62%, rgba(32,9,84,1) 100%);
+}
+
+div#chatbot_mensaje {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 400px;
+}
