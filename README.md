@@ -5,7 +5,7 @@ Proyecto realizado en NODE JS que contiene un Chatbot Básico para Desafío Banc
 
 El siguiente proyecto se compone de 4 elementos principales para hacer de la experiencia del desarrollador un poco más cómoda.
 
-Para inicializar el proyecto asegurese de tener todos los paquetes instalados, los cualquier puede obtener usando:
+Para inicializar el proyecto asegurese de tener todos los paquetes instalados, los cuales puede obtener usando:
 ```
   npm install
 ```
