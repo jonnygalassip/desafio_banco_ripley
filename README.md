@@ -9,7 +9,7 @@ Para inicializar el proyecto asegurese de tener todos los paquetes instalados, l
 ```
   npm install
 ```
-los cuales incluyen:
+Este proyecto incluye:
 ```
 "dependencies": {
   "ejs": "^3.1.6",
@@ -20,7 +20,7 @@ los cuales incluyen:
   "nodemon": "^2.0.7"
 }
 ```
-Para poder iniciar el proyecto y además ver la ejecución en consola se recomienda utilizar:
+Para poder iniciar y además ver la ejecución en consola se recomienda utilizar:
 
 ```
   npm run dev
